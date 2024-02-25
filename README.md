@@ -1,10 +1,14 @@
 # Demonstrating a bug
 
+This is a minimal reproduction for https://github.com/vlcn-io/js/issues/50
+
+To see the issue:
+
 1. Clone this repo
 2. `cd vlcnbug`
 3. `yarn`
 4. `yarn dev`
-5. Go to a browser and connect to the dev server (likely `https://localhost:8080/`
+5. Go to a browser and connect to the dev server (likely `https://localhost:8080/`)
 
 The output when I do that:
 
