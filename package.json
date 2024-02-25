@@ -1,0 +1,59 @@
+{
+  "name": "lmschedule",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^20.0.1",
+    "@vlcn.io/crsqlite-wasm": "^0.16.0",
+    "@vlcn.io/direct-connect-nodejs": "^0.7.2",
+    "@vlcn.io/react": "^3.1.0",
+    "@vlcn.io/ws-browserdb": "^0.2.0",
+    "@vlcn.io/ws-server": "^0.2.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nanoid": "^5.0.6",
+    "prettier": "^3.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.4",
+    "vite": "^5.1.4",
+    "vite-express": "^0.15.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "dev": "node ./server.js",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
